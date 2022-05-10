@@ -1,12 +1,12 @@
 import React from 'react';
 import Header from './components/Header';
-import TextCheck from './components/TextCheck';
+import Greeting from './components/greeting/Greeting';
 
 const Mian = () => {
   return (
     <>
       <Header />
-      <TextCheck />
+      <Greeting />
     </>
   )
 }

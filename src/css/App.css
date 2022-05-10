@@ -11,3 +11,9 @@ h1,h2,h3,h4{
   margin-top: 0px;
   margin-bottom: 0px;
 }
+a{
+    text-decoration: none;
+}
+.grey-color {
+  color: #868e96;
+}

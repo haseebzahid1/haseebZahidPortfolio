@@ -12,7 +12,7 @@ const Header = () => {
         <a href="#." title="Logo" className="logo scroll">
         
         <span className="grey-color"> &lt;</span>
-            <span className="logo">Haseeb Zahid</span>
+            <span className="logo-name">Haseeb Zahid</span>
             <span className="grey-color">/&gt;</span>
         </a>
        

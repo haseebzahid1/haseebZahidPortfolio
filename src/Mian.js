@@ -8,7 +8,7 @@ const Mian = () => {
     <>
       <Header />
       <Greeting />
-      <WorkExperience />
+      {/* <WorkExperience /> */}
     </>
   )
 }

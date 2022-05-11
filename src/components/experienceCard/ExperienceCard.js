@@ -1,6 +1,6 @@
 import React from 'react';
 import '../experienceCard/ExperienceCard.css';
-const ExperienceCard = () => {
+const ExperienceCard = ({cardInfo}) => {
     return (
         
             <div className='experience-col'>
@@ -8,17 +8,15 @@ const ExperienceCard = () => {
                     <div className="experience-banner">
                         <div className="experience-blurred_div"></div>
                         <div className="experience-div-company">
-                            <h5 className="experience-text-company">Software</h5>
+                            <h5 className="experience-text-company">{cardInfo.company}</h5>
                         </div>
 
                         
                     </div>
                     <div className="experience-text-details">
-                        <h5 className="experience-text-role">Software Engineer</h5>
-                        <h5 className="experience-text-date">June 2019 – Present</h5>
-                        <p className="subTitle experience-text-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
+                        <h5 className="experience-text-role">{cardInfo.role}</h5>
+                        <h5 className="experience-text-date">{cardInfo.date}</h5>
+                        <p className="subTitle experience-text-desc">{cardInfo.desc}</p>
                         
                     </div>
                 </div>

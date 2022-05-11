@@ -97,7 +97,14 @@
     padding: 0 10px;
     font-size: 1.5em;
 }
-
+ .logo-name {
+    font-family: 'Agustina Regular';
+    /* font-family: myFirstFont ; */
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgb(207, 207, 219);
+    padding: 0 10px;
+  }
+  
 
 .nav-list{
     display: inline-flex;
@@ -192,7 +199,11 @@
     z-index: 3323;
     display: inline-block;
 }
-
+@media (max-width:1366px){
+    .logo{
+        /* font-size: 1.2em; */
+    }
+}
 @media (max-width:1330px){
     .nav-list{
         position: fixed;
@@ -219,11 +230,7 @@
     
 }
 
-@media (max-width:567px){
-    .logo{
-        font-size: 1.2em;
-    }
-}
+
 
 /*min-width*/
  

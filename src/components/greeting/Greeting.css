@@ -1,6 +1,55 @@
 .greet-main {
-    width: 90%;
-    padding: 20px 10px;
-    margin: 0px auto;
-    margin-top: 110px;
+    margin-top: 152px;
+  }
+  .greeting-h1 {
+    font-size: 70px;
+    /* line-height: 1.1; */
+  }
+  .greeting-text-p {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .btn-flex{
+    display: flex;
+    margin-top: 20px;
+  }
+  .btn-1-ml{
+    margin-right: 50px;
+  }
+
+
+
+
+  @media (max-width:1366px){
+    .greeting-h1{
+      font-size: 50px;
+      font-weight:500;
+    }
+    .greeting-text-p {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+
+
+  @media (max-width: 768px) {
+   
+    .greeting-h1 {
+      font-size: 30px;
+      text-align: center;
+    }
+    .greeting-text-p {
+      font-size: 16px;
+      line-height: normal;
+      text-align: center;
+    }
+    .btn-flex{
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .btn-1-ml{
+      margin-right: 0px;
+    }
+  
   }

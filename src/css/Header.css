@@ -219,7 +219,11 @@
     
 }
 
-
+@media (max-width:567px){
+    .logo{
+        font-size: 1.2em;
+    }
+}
 
 /*min-width*/
  

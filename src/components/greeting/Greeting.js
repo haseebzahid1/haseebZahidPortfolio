@@ -28,6 +28,7 @@ const Greeting = () => {
         <div className="greeting-image-div">
         <img alt="saad sitting on table" src="./img/manOnTable.svg"></img>
         </div>
+        
        </div>
 
       </div>

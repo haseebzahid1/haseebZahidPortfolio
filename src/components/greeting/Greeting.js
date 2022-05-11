@@ -7,6 +7,7 @@ const Greeting = () => {
   return (
     <div className='greet-main'>
       <div className='container'>
+       <div className='greeting-container'>
        <div className='greeting-left-div'>
        <h1 className='greeting-h1'>
         {" "}
@@ -27,6 +28,7 @@ const Greeting = () => {
         <div className="greeting-image-div">
         <img alt="saad sitting on table" src="./img/manOnTable.svg"></img>
         </div>
+       </div>
 
       </div>
     </div>

@@ -1,6 +1,10 @@
 .greet-main {
     margin-top: 152px;
   }
+  .greeting-container{
+    display: flex;
+  }
+  .greeting-image-div
   .greeting-h1 {
     font-size: 70px;
     /* line-height: 1.1; */
@@ -17,7 +21,15 @@
   .btn-1-ml{
     margin-right: 50px;
   }
-
+  .greeting-image-div  img {
+    max-width: 100%;
+    height: auto;
+  }
+.greeting-left-div,
+.greeting-image-div{
+  width: 100%;
+  max-width: 50%;
+}
 
 
 
@@ -34,7 +46,16 @@
 
 
   @media (max-width: 768px) {
-   
+    .greeting-container{
+      display: flex;
+      flex-wrap: wrap;
+      
+    }
+    .greeting-left-div,
+    .greeting-image-div{
+      width: 100%;
+      max-width: 100%;
+    }
     .greeting-h1 {
       font-size: 30px;
       text-align: center;
@@ -51,5 +72,30 @@
     .btn-1-ml{
       margin-right: 0px;
     }
-  
+    .greeting-image-div{
+      margin-top: 30px;
+     text-align: center;
+    }
+    .greeting-image-div  img {
+      max-width: 100%;
+      height: 400px;
+     
+    }
+  }
+
+  @media (max-width:576px){
+    .greet-main {
+      margin-top: 90px;
+    }
+    .greeting-h1{
+      font-size: 27px;
+    }
+    .greeting-image-div  img {
+      max-width: 100%;
+      height: 250px;
+     
+    }
+    .btn-flex{
+      margin-top: 10px;
+    }
   }

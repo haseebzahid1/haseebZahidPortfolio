@@ -52,8 +52,40 @@
         font-size: 16px;
     }
 }
+@media(max-width:992px){
+    
+    .progress-container{
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+    .progress-content{
+        padding-right: 0;
+    }
+    .progress-content,
+    .progress-img{
+        max-width: 100%;
+    }
+    .progress-img{
+        max-width: 80%;
+        margin-top: 3rem;
+        padding-right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .progress-heading{
+        margin-top: 0;
+    }
+}
 @media (max-width:768px){
     .progress-img{
         order: 2;
+    }
+}
+@media(max-width:576px){
+    .progress-heading{
+        font-size: 35px;
+    }
+    .progress-img{
+        max-width: 100%;
     }
 }

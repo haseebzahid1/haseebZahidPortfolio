@@ -27,3 +27,9 @@
     color: #645beb;
   }
   
+
+  @media(max-width:576px){
+    .software-skill-inline {
+      margin-bottom: 14px;
+    }
+  }

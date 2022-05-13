@@ -1,6 +1,23 @@
-.skills-heading{
+.progress-container{
+    display: flex;
+    margin-top: 52px;
+}
+.progress-content,
+.progress-img{
+    width: 100%;
+    max-width: 50%;
+    padding-right: 50px;
+}
+.progress-img img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.progress-heading{
     font-size: 56px;
     font-weight: 400;
+    margin: 25.52px 0;
 }
 
 .meter { 
@@ -33,5 +50,10 @@
 @media(max-width:1366px){
     .skills-p{
         font-size: 16px;
+    }
+}
+@media (max-width:768px){
+    .progress-img{
+        order: 2;
     }
 }

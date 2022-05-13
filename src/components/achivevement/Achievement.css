@@ -1,0 +1,7 @@
+.achievementCard-container{
+    display: flex;
+}
+.achievement-header{
+    margin-top: 64px;
+    margin-bottom: 50px;
+}

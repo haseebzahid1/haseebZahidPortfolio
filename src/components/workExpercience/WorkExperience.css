@@ -1,4 +1,23 @@
 .workExperience-container{
     display: flex;
     width: 100%;
+    margin-top: 2rem;
+}
+.experience-heading {
+    font-size: 56px;
+    font-weight: 400;
+}
+
+
+@media (max-width: 1366px) {
+    .experience-heading {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .experience-heading {
+        font-size: 30px;
+        text-align: center;
+    }
 }

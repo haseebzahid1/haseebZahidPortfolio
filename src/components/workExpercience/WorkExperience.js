@@ -5,16 +5,30 @@ import {workExperiences} from "../../portfolio"
 
 const WorkExperience = () => {
   if(workExperiences.viewExperiences){
-    
-  }
-  return (
-    <div className='container'>
-      <div className='workExperience-container'>
-      <ExperienceCard />
-      
+    return (
+      <div className='container'>
+       <h1 className="experience-heading">Experiences</h1>
+        <div className='workExperience-container'>
+          {workExperiences.experience.map((card)=>{
+            return (
+              <ExperienceCard 
+                 cardInfo={{
+                   company:card.company,
+                   companylogo: card.companylogo,
+                   desc: card.desc,
+                   date: card.date,
+                   role: card.role,
+                   descBullets: card.descBullets
+                 }}
+              />
+            )
+          })}
+        
+        </div>
       </div>
-    </div>
-  )
+    )
+  }
+ return null;
 }
 
 export default WorkExperience

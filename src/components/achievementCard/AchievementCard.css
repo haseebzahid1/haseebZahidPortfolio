@@ -1,0 +1,17 @@
+.achievementCard-col{
+    width: 100%;
+    max-width: 33%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.achievementCard-body {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+    border-radius: 10px;
+    border: 1px solid rgba(211, 211, 211, 0.397);
+    text-align: center;
+}
+
+.achievementCard-body:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+}

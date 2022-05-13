@@ -1,6 +1,7 @@
 import React from 'react';
 import '../experienceCard/ExperienceCard.css';
 const ExperienceCard = ({cardInfo}) => {
+    
     const GetDescBullets = ({ descBullets }) => {
         return descBullets ? descBullets.map((item) => <li className="subTitle">{item}</li>) : null
       };

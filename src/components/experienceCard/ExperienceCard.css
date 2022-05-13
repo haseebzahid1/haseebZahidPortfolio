@@ -88,3 +88,36 @@
     list-style: none;
     padding-left: 10px;
 }
+
+@media(max-width:1366px){
+    /* .experience-text-details{
+        padding: 14px;
+    } */
+    .experience-blurred_div{
+        height: 122px;
+    }
+    .experience-div-company{
+        top: 35px;
+    }
+    .experience-roundedimg{
+        width: 80px;
+        height: 80px;
+    }
+    .experience-text-role{
+        font-size: 21px;
+    }
+    .experience-text-date{
+        font-size: 17px;
+    }
+}
+@media(max-width:992px){
+    .experience-col{
+        max-width: 50%;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:768px){
+    .experience-col{
+        max-width: 100%;
+    }
+}

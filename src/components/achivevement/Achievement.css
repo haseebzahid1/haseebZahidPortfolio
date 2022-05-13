@@ -5,3 +5,11 @@
     margin-top: 64px;
     margin-bottom: 50px;
 }
+
+@media (max-width:1366px){}
+@media (max-width:992px){
+    .achievementCard-container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

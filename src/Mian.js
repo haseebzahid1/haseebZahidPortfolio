@@ -13,8 +13,8 @@ const Mian = () => {
       <Greeting />
       <Skills />
       <SkillsProgress />
-      {/* <WorkExperience />
-      <Achievement /> */}
+      <WorkExperience />
+      <Achievement />
     </>
   )
 }

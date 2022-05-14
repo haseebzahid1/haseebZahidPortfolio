@@ -5,13 +5,14 @@ const ExperienceCard = ({cardInfo}) => {
     const GetDescBullets = ({ descBullets }) => {
         return descBullets ? descBullets.map((item) => <li className="subTitle">{item}</li>) : null
       };
-
+   
     return (
         
             <div className='experience-col'>
                 <div className="experience-card">
                     <div className="experience-banner">
-                        <div className="experience-blurred_div">
+                        {/* style may background color kesay lekh na hian */}
+                        <div className="experience-blurred_div" style={cardInfo.backgroud}>
                         <div className="experience-div-company">
                             <h5 className="experience-text-company">{cardInfo.company}</h5>
                             <img src={cardInfo.companylogo} alt="" className='experience-roundedimg' />

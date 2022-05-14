@@ -63,3 +63,24 @@
     font-size: 14px;
     cursor: pointer;
   }
+
+  @media (max-width:576px){
+    .talk-card{
+      margin-top: 32px;
+    }
+    .talk-card-title{
+      font-size: 23px;
+      margin-top: -25px;
+    }
+    .talk-header-title{
+      font-size: 42px;
+    }
+    .talk-cardimg{
+      height: 125px;
+    }
+    .talk-card-subtitle{
+      margin-top: 26px;
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+  }

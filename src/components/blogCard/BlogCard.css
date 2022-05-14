@@ -29,8 +29,7 @@
     display: block;
     position: relative;
     z-index: 233;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0px 20px 20px 20px;
 }
 .blog-body{
   display: block;
@@ -104,3 +103,31 @@
     color: white;
     font-family: courier, sans;
   }
+
+  
+@media (max-width:1366px){
+  .blog-title{
+    font-size: 17px;
+  }
+  .blog-p{
+    font-size: 15px;
+  }
+}
+@media(max-width:768px){
+  .blog-container{
+   flex-wrap: wrap;
+
+  }
+  .blog-card{
+    min-height: 150px;
+    
+  }
+  .blog-content{
+    max-width: 100%;
+    margin-top: 25px;
+    margin-right: 0;
+  }
+  .blog-subtitle{
+    margin-bottom: 0;
+  }
+}

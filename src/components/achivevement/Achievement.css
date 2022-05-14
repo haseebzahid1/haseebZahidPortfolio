@@ -13,3 +13,9 @@
         justify-content: center;
     }
 }
+@media (max-width: 576px) {
+    .achievement-header{
+      margin-top: 0;
+      margin-bottom: 25px;
+    }
+  }

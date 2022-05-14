@@ -122,6 +122,7 @@ const skillsSection = {
         company: "Facebook",
         companylogo: require("./assets/images/facebookLogo.webp"),
         date: "June 2019 – Present",
+        background:"#0D4DA2",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         descBullets: [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -132,6 +133,7 @@ const skillsSection = {
         role: "Front-End Developer",   
         company: "Quora",
         companylogo: require("./assets/images/quoraLogo.webp"),
+          background:"#7C1C18",
         date: "May 2017 – May 2018",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       },
@@ -139,6 +141,7 @@ const skillsSection = {
         role: "Software Engineer Intern",  
         company: "Airbnb",
         companylogo: require("./assets/images/airbnbLogo.webp"),
+          background:"#B74344",
         date: "Jan 2015 – Sep 2015",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       },
@@ -221,6 +224,11 @@ const skillsSection = {
         url: "",
         title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
         description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+      },
+      {
+        url: "",
+        title: "Why REACT is The Best?",
+        description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
       },
       {
         url: "",

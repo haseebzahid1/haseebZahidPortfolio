@@ -24,7 +24,7 @@ const Contact = () => {
              <SocialMedia/>
               </div>
               <div className='contact-right'>
-                  
+                  <img src="img/adeel.jpg" alt="haseeb working" className='contact-right-img' />
               </div>
           </div>
       </div>

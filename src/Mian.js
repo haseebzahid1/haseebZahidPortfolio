@@ -8,6 +8,8 @@ import SkillsProgress from './components/skillProgress/SkillsProgress';
 import Blogs from './components/blogs/Blogs';
 import Talks from './components/tacks/Talks';
 import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
+import StartUpProject from './components/startupproject/StartUpProject';
 
 const Mian = () => {
   return (
@@ -17,10 +19,12 @@ const Mian = () => {
       <Skills />
       <SkillsProgress />
       <WorkExperience />
+      <StartUpProject />
       <Achievement />
       <Blogs />
       <Talks />
       <Contact />
+      <Footer />
     </>
   )
 }

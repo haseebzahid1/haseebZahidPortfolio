@@ -1,0 +1,23 @@
+.startProject{
+    margin-top: 84px;
+    margin-bottom: 20px;
+}
+.starProject-row{
+    display: flex;
+    margin-top: 30px;
+}
+.starProject-col-2{
+    width: 100%;
+    max-width: 25%;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+.skills-heading{
+    font-size: 56px;
+    margin: 0px 0;
+    color: #000;
+}
+.project-subtitle{
+    margin: 12px 0;
+}

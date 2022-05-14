@@ -5,6 +5,7 @@ import WorkExperience from './components/workExpercience/WorkExperience';
 import Achievement from './components/achivevement/Achievement';
 import Skills from './components/skills/Skills';
 import SkillsProgress from './components/skillProgress/SkillsProgress';
+import Blogs from './components/blogs/Blogs';
 
 const Mian = () => {
   return (
@@ -15,6 +16,7 @@ const Mian = () => {
       <SkillsProgress />
       <WorkExperience />
       <Achievement />
+      <Blogs />
     </>
   )
 }
